@@ -8,11 +8,11 @@ public final class UrlConstraint {
     public static class StudentManagement {
         public static final String ROOT = "/student";
         public static final String CREATE = "/create";
-//        public static final String GET_ALL="/all";
-//        public static final String GET_BOYCOTT_BYID ="/get/{id}";
-//        public static final String DELETE="/delete/{id}";
-//        public static final String EDIT="/edit/{id}";
-//        public static final String NAME_MADE_COUNTRY="/name-and-madeCountry";
+        public static final String GET_ALL="/all";
+        public static final String GET_STUDENT_BYID ="/get/{id}";
+        public static final String DELETE="/delete/{id}";
+        public static final String EDIT="/edit/{id}";
+        public static final String GET_STUDENT_NAME_AND_AGE ="/name-and-age";
 
 
     }

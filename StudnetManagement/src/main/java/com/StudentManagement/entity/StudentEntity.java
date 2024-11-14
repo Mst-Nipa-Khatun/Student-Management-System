@@ -10,6 +10,6 @@ import lombok.Data;
 @Table(name="student_management")
 public class StudentEntity extends BaseEntity {
     private String name;
-    private String age;
+    private Integer age;
     private String gender;
 }

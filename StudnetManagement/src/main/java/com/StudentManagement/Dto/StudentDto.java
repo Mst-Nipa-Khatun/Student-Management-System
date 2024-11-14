@@ -5,6 +5,6 @@ import lombok.Data;
 @Data
 public class StudentDto extends BaseDto {
     private String name;
-    private String age;
+    private Integer age;
     private String gender;
 }
